@@ -1,0 +1,21 @@
+//Server starten
+mysql-ctl start;
+
+//Server stoppen
+mysql-ctl stop;
+
+//Command line Interface (CLI)
+mysql-ctl cli;
+
+// Datenbanken anzeigen
+SHOW DATABASES;
+
+// Datenbank anlegen
+CREATE DATABASE boo;
+
+// Datenbank auswaehlen
+USE boo;
+
+// DB loeschen --> Dann ist ALLES weg!
+DROP DATABASE boo;
+
